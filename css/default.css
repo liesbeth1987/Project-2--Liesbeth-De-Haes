@@ -1,10 +1,27 @@
+:root{
+    --bs-primary: #0dc5fd;
+    --bs-primary-rgb: 13, 197, 253;
+}
 *{
     box-sizing: border-box;
+}
+body{
+    background-color: black;
 }
 
 header{
     padding: 40px;
-    font-family: 'Hind Madurai', sans-serif;
+    font-family:'VT323', monospace;
+    background-color: black;
+    font-size: 20px;
+}
+
+.nav-link{
+    color: rgb(0, 255, 42);
+}
+
+.nav-link:hover, .nav-link:focus {
+    color: cyan;
 }
 
 .naam{
@@ -17,17 +34,18 @@ header{
 p.index{
     font-size: 20px;
     text-align: center;
-    color: gray;  
+    color: rgb(240, 10, 228);  
 }
 
 p.index>a{
     font-style: normal;
-    color: gray;
+    color: rgb(240, 10, 228);    
     text-decoration: none;
 }
+
 p.index>a:hover{
     font-style: normal;
-    color: black;
+    color:cyan;
     text-decoration: none;
 }
 
@@ -36,26 +54,68 @@ span.keeptogheter{
 }
 
 .jumbotron{
-    font-family: 'Hind Madurai', sans-serif;
+    font-family: 'VT323', monospace;
+    background-color: black;
+    color: rgb(0, 255, 42);
+    padding-bottom: 20px;
+}
+
+.row{
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .card{
-    font-family: 'Hind Madurai', sans-serif;
-    
-}
-footer{
-    padding-top: 3%;
-    font-family: 'Hind Madurai', sans-serif;
+    font-family: 'VT323', monospace;
+    background-color: rgb(240, 10, 228);
+    color:black;
 }
 
+.card-2{
+    font-family: 'VT323', monospace;
+    background-color: rgb(0, 255, 42);
+    color:black;
+
+}
+
+.card-1{
+    font-family: 'VT323', monospace;
+    background-color:cyan;
+    color: black;
+
+}
+
+footer{
+    padding-top: 3%;
+    font-family: 'VT323', monospace;
+    background-color: black;
+    color: rgb(0, 255, 42);;
+}
+
+.btn-outline-primary {
+    color: rgb(0, 255, 42);;
+    border-color: rgb(0, 255, 42);;
+  }
+
+.btn-outline-primary:hover {
+    color:black;
+    background-color: rgb(0, 255, 42);;
+    border-color: rgb(0, 255, 42);;
+  }
+
 .ervaring{
-    font-family: 'Hind Madurai', sans-serif;
+    font-family: 'VT323', monospace;
+    color: rgb(0, 255, 42);
     padding-top: 15%;
+}
+
+.ervaring>h1{
+    color: rgb(240, 10, 228);
 }
 
 .desc{
     text-align: center;
-    color: grey;
+    color:rgb(240, 10, 228);
     font-size: 9px;
 }
 
@@ -69,29 +129,33 @@ img.indonesie{
 }
 
 .cv{
-    font-family: 'Hind Madurai', sans-serif;
+    font-family: 'VT323', monospace;
     padding-top: 15%;
+    color: rgb(0, 255, 42);
 }
 
 .cv>h1{
     padding-bottom: 5%;
+    color: rgb(240, 10, 228);
+    
 }
 
 .subcv{
     padding-top: 20px;
-    font-family: 'Hind Madurai', sans-serif;
+    font-family: 'VT323', monospace;
 }
 
 .subcv>h2{
     padding-top: 20px;
     padding-bottom: 10px;
-    font-family: 'Hind Madurai', sans-serif;
+    font-family: 'VT323', monospace;
     font-weight: bold;
     font-size: 20px;
-    color: black;
+    color:rgb(0, 255, 42);
+    text-decoration: underline rgb(240, 10, 228);
 }
 
-tr:nth-child(even){background-color: rgba(231, 230, 230, 0.582)}
+tr:nth-child(even){background-color: rgb(39, 39, 39)}
 
 td{
     text-align: left;
@@ -105,22 +169,25 @@ li{
 }
 
 .hobby{
-    font-family: 'Hind Madurai', sans-serif;
+    font-family: 'VT323', monospace;
     padding-top: 15%;
+    color: rgb(240, 10, 228);
 }
 
 .subhobby{
     padding-top: 20px;
-    font-family: 'Hind Madurai', sans-serif;
+    font-family: 'VT323', monospace;
+    color:rgb(0, 255, 42);
 }
 
 .subhobby>h2{
     padding-top: 20px;
     padding-bottom: 10px;
-    font-family: 'Hind Madurai', sans-serif;
+    font-family: 'VT323', monospace;
     font-weight: bold;
-    font-size: 20px;
-    color: black;
+    font-size: 30px;
+    text-decoration: underline rgb(240, 10, 228);
+    color: rgb(0, 255, 42)
 }
 
 .carousel{
@@ -140,21 +207,34 @@ li{
 } 
 
 .contact{
-    font-family: 'Hind Madurai', sans-serif;
+    font-family: 'VT323', monospace;
     padding-top: 15%;
+    color: rgb(0, 255, 42);
+}
+
+.contact>h1{
+    color: rgb(240, 10, 228);
 }
 
 .subcontact{
     padding-top: 10%;
+    color: rgb(0, 255, 42);
 }
 
-.subcontact>h2{
+.subcontact>.row>.col-md-6>h2{
     padding-top: 20px;
     padding-bottom: 10px;
-    font-family: 'Hind Madurai', sans-serif;
+    font-family: 'VT323', monospace;
     font-weight: bold;
-    font-size: 20px;
-    color: black;
+    font-size: 30px;
+    color: rgb(0, 255, 42);
+    text-decoration: underline rgb(240, 10, 228);
+}
+p.contact2{
+    color: rgb(0, 255, 42);
+}
+i.icoon{
+    color: rgb(240, 10, 228);
 }
 
 .button{
@@ -164,21 +244,29 @@ li{
 p.werkgever{
     padding-top: 15%;
     text-align: center;
-    font-family: 'Hind Madurai', sans-serif;
+    font-family: 'VT323', monospace;
     font-weight: bold;
     font-size: 20px;
     color: black;
 }
 p.datum{
     text-align: center;
-    font-family: 'Hind Madurai', sans-serif;
+    font-family: 'VT323', monospace;
     font-size: 14px;
 }
-
 
 .card-img-top{
     padding-top: 5%;
     padding-left: 5%;
+    
+}
+.card-img-top>a{
+   
+    color: black;
+}
+.card-img-top>a:hover{
+   
+    color:gray;
 }
 
 a{
@@ -190,10 +278,134 @@ a:hover{
 }
 
 form{
-border-left: 1px solid gray ;
+border-left: 1px solid rgb(240, 10, 228) ;
 }
 
 form>.row{
     padding-left: 20px;
 }
 
+.progress {
+    display: flex;
+    height: 1rem;
+    overflow: hidden;
+    font-size: 20px;
+    background-color: #e9ecef;
+    border-radius: 0.25rem;
+    height: 15px;
+}
+  
+  .progress-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    color:rgb(6, 124, 25);
+    text-align: center;
+    white-space: nowrap;
+    background-color: rgb(0, 255, 42);
+    transition: width 0.6s ease;
+}
+
+.progress-bar-striped {
+    background-image: linear-gradient(45deg, rgba(7, 107, 21, 0.432) 25%, transparent 25%, transparent 50%, rgba(7, 107, 21, 0.432) 50%, rgba(7, 107, 21, 0.432) 75%, transparent 75%, transparent);
+   
+}
+  
+.progress-bar-animated {
+    -webkit-animation: 1s linear infinite progress-bar-stripes;
+    animation: 1s linear infinite progress-bar-stripes;
+}
+
+.subcv>.row>.col-md-4>li{
+    font-size: 20px;
+    color: rgb(0, 255, 42);
+}
+
+.accordion{
+    background-color: black;
+}
+.accordion-button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 1rem 1.25rem;
+    font-size: 1rem;
+    color: rgb(0, 255, 42);
+    text-align: left;
+    background-color: black;
+    border: 0;
+    border-radius: 0;
+    overflow-anchor: none;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, border-radius 0.15s ease;
+  }
+
+  .accordion-button.open{
+      color: rgb(0, 255, 42);
+      background-color: black;
+  }
+
+  
+  .accordion-button:not(.collapsed) {
+    color: rgb(0, 255, 42);
+    background-color: black;
+    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.125);
+  }
+  .accordion-button:not(.collapsed)::after {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%230c63e4'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+    transform: rotate(-180deg);
+    color: rgb(0, 255, 42);
+  }
+  .accordion-button::after {
+    flex-shrink: 0;
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-left: auto;
+    content: "";
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-size: 1.25rem;
+    transition: transform 0.2s ease-in-out;
+    color: rgb(0, 255, 42);
+  }
+  .accordion-collapse{
+      color: rgb(0, 255, 42);
+  }
+
+.accordion-header {
+    margin-bottom: 0;
+    background-color: black;
+    color: rgb(0, 255, 42);
+  }
+  .accordion-header>h2 {
+    margin-bottom: 0;
+    background-color: black;
+    color: rgb(0, 255, 42);
+  }
+  
+  .accordion-item {
+    background-color: black;
+    color: rgb(0, 255, 42);
+    border: 1px solid rgba(0, 0, 0, 0.125);
+  }
+  
+  button>h2{
+      text-decoration: underline rgb(240, 10, 228);
+      font-size: 28px;
+  }
+  
+  .navbar-toggler {
+    padding: 0.25rem 0.75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid rgb(0, 255, 42);
+    color: rgb(0, 255, 42);
+  }
+
+ .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(0,255,42) ' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+
+ 
